@@ -8,6 +8,7 @@ import LoginScreen from './screens/LoginScreen';
 import {auth} from './firebase'
 import { useDispatch, useSelector } from 'react-redux';
 import { login, logout, selectUser } from './features/counter/userSlice';
+import ProfileScreen from './screens/ProfileScreen';
 
 function App() {
   const user = useSelector(selectUser);
@@ -22,13 +23,13 @@ function App() {
       }
       else{
         //Logged Out
-        dispatch(logout)
+        dispatch(logout())
         
       }
     })
     //when the useEffect cleans up run unsubscribe()
     return unsubscribe;
-  },[]);
+  },[dispatch]);
 
   return (
     <BrowserRouter>
@@ -47,4 +48,4 @@ function App() {
 
 export default App;
 
-//2:14.45
+//3.02
