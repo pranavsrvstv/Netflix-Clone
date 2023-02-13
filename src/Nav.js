@@ -1,8 +1,11 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import userSlice, { selectUser } from './features/counter/userSlice';
+import { useSelector } from 'react-redux';
 import './Nav.css'
 const Nav = () => {
+    const user =useSelector(selectUser);
 
     const [show,handleshow]=useState(true);
 
@@ -28,7 +31,12 @@ const Nav = () => {
         <div className="nav__content">
         <img  onClick={()=>Navigate('/')} className='nav_logo'
         src="https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo-768x432.png" alt="netflix_logo" />
+        <div className='nav_user'>
+        <p>Hey, {user.email}</p>
         <img onClick={()=>Navigate('/profile')} src="https://cdn.pixabay.com/photo/2012/04/13/21/07/user-33638_1280.png" alt="user_avatar" className='nav_avatar'/>
+       
+        </div>
+        
 
         
         </div>

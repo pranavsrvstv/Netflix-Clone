@@ -19,7 +19,7 @@ function App() {
       if(userAuth){
         //Logged in
         console.log(userAuth);
-        dispatch(login({uid:userAuth.id , email:userAuth.email}));
+        dispatch(login({uid:userAuth.uid , email:userAuth.email}));
       }
       else{
         //Logged Out
@@ -48,4 +48,4 @@ function App() {
 
 export default App;
 
-//3.02
+//3.57- error coming in checkout page , error in  productData.prices.priceId

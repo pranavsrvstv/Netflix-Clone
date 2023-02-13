@@ -2,6 +2,8 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth'
+
+
 // In firebase v9 , we need to import like firebase functionalities like this
 
 const firebaseConfig = {
@@ -17,5 +19,6 @@ const firebaseConfig = {
   const firebaseapp=firebase.initializeApp(firebaseConfig);
   const db= firebase.firestore();
   const auth =firebase.auth();
+  
 
   export {auth,db}

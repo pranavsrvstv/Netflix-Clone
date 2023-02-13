@@ -1,6 +1,7 @@
 .profileScreen{
     height:100vh;
     color:white;
+    padding-bottom:10%;
 }
 
 .profileScreen_body{
@@ -17,9 +18,9 @@
 }
 
 .profileScreen_body>h1{
-font-size: 60px;
+font-size: 40px;
 font-weight: 400;
-border-bottom : 1px solid white;
+border-bottom : 1px solid grey;
 margin-bottom: 20px;
 }
 
@@ -40,6 +41,6 @@ margin-bottom: 20px;
     height:100px;
 }
 .profileScreen_plans>h3{
-    border-bottom:1px solid white;
+    border-bottom : 1px solid grey;
     padding-bottom:10px;
 }
