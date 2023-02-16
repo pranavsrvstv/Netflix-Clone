@@ -1,3 +1,11 @@
+<h2>ScreenShots<h2/>
+<img width="400" alt="netflix-clone_getStarted" src="https://user-images.githubusercontent.com/120587771/218469952-eb4e34e5-d1e3-4672-96d7-0c9d7ad933ce.png">
+
+<img width="400" alt="netflix-clone_home" src="https://user-images.githubusercontent.com/120587771/218469831-e452089c-b37e-447e-a3d5-c682d9510344.png">
+<img width="400" alt="netflix-clone_profile" src="https://user-images.githubusercontent.com/120587771/218469920-26e794b8-2697-475f-9d3a-60ae36838d56.png">
+<img width="400" alt="netflix-clone_signin" src="https://user-images.githubusercontent.com/120587771/218469988-7756a189-f7d5-41a7-82af-5e2078ed16ce.png">
+<img width="700" alt="netflix-clone_stripe" src="https://user-images.githubusercontent.com/120587771/218470020-9271b150-102d-45d2-87d5-062318fe2674.png">
+
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
