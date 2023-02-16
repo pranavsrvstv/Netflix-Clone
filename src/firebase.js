@@ -3,17 +3,14 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth'
 
-
-// In firebase v9 , we need to import like firebase functionalities like this
-
 const firebaseConfig = {
-    apiKey: "AIzaSyAadtxzH6tTrqgGVj6MBk-ktqn1-zA__14",
-    authDomain: "pranav-cloudfunctions.firebaseapp.com",
-    projectId: "pranav-cloudfunctions",
-    storageBucket: "pranav-cloudfunctions.appspot.com",
-    messagingSenderId: "1037615127993",
-    appId: "1:1037615127993:web:6c3870e969bb8e8f26ea68"
-  };
+  apiKey: process.env.REACT_APP_API_KEY ,
+  authDomain:process.env.REACT_APP_AUTH_DOMAIN ,
+  projectId: process.env.REACT_APP_PROJECT_ID ,
+  storageBucket: process.env.REACT_APP_STORAGE_BUDGET ,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID ,
+  appId: process.env.REACT_APP_APP_ID ,
+};
   
 
   const firebaseapp=firebase.initializeApp(firebaseConfig);
@@ -22,3 +19,5 @@ const firebaseConfig = {
   
 
   export {auth,db}
+
+  // console.log(process.env)

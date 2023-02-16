@@ -1,1 +1,1 @@
-&with_networks=213
+  export default {firebaseConfig};

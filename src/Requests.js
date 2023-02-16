@@ -1,6 +1,10 @@
-const apikey=process.env.REACT_APP_TMDB_API_KEY
 
+// require('dotenv').config();
+const apikey=process.env.REACT_APP_TMDB_API_KEY;
+const authDomain=process.env.REACT_APP_API_KEY
+console.log(apikey,authDomain)
 
+// console.log(apikey)
 const requests={
     getTrending:`/trending/all/week?api_key=${apikey}&language=en-US`,
     fetchNetflixOriginals:`/discover/tv?api_key=${apikey}&with_networks=213`,
