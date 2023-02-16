@@ -7,18 +7,21 @@
 <img width="700" alt="netflix-clone_stripe" src="https://user-images.githubusercontent.com/120587771/218470020-9271b150-102d-45d2-87d5-062318fe2674.png">
 
 <h3>Netflix Clone with amazing functionalities</h3>
-Features:
-1.SignIn
-2.LogIn
-3.SignOut
-4.Subscription
-5.Payment Using Stripe
 
-Contributor Guideline:
+<h4>Features:</h4>
+1.SignIn<br>
+2.LogIn<br>
+3.SignOut<br>
+4.Subscription<br>
+5.Payment Using Stripe<br>
+<br><br>
 
-To run the project :
-1.Place your firebase app configuration in the .env file 
-2.Run npm i 
-3.Run npm start
+<h4>Contributor Guideline:</h4>
+<br>
+
+To run the project :<br>
+1.Place your firebase app configuration in the .env file <br>
+2.Run npm i <br>
+3.Run npm start<br>
 
 Note: You need firebase blaze plan for the payment functionalities,as it uses firebase extensions which is currently available only under blaze plan.
